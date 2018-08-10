@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.util.Scanner;
 
 public class RegisterLogin {
@@ -15,7 +16,7 @@ public class RegisterLogin {
 	}
 	
 	//	Log in user
-	public void LogIn() {
+	public void LogIn() throws IOException {
 		System.out.println("Enter user name:");
 		String userName = scanner.next();
 		System.out.println("Enter password:");
